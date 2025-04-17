@@ -50,7 +50,7 @@ test {
 
 - Clone this project and run it in intelliJ
  
-## Video and Reports of Aumotaions
+## Video and Test Reports of Automaions
  ### Test Case 1: Digital Unite Webform
    ```https://www.digitalunite.com/practice-webform-learners ```
 -  upload  any file (gif, jpg, png, bmp, rtf, pdf, doc, docx, pptx, xlsx.) (2 MB limit) and give your file location in the code
