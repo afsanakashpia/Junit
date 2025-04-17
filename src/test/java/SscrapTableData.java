@@ -31,8 +31,9 @@ public class SscrapTableData {
             List<WebElement> Cells = row.findElements(By.cssSelector("td"));
             for (WebElement cell : Cells) {
                 i++;
-                System.out.println("num [" + i + " ]" + cell.getText());
+                System.out.print("num [" + i + "] = " + cell.getText()+" | ");
             }
+            System.out.println();
         }
     }
 
