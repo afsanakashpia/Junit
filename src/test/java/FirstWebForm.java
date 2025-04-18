@@ -36,19 +36,14 @@ public class FirstWebForm {
         textboxes.get(0).sendKeys("John Dev");
         textboxes.get(1).sendKeys("0158352215");
 
-        // Handle the date field
+        // date field
         WebElement dateField = textboxes.get(2);
-
-        // Scroll the date field into view and wait for it to be clickable
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", dateField);
-        Thread.sleep(1000); // Let animations finish
-
-// Click via JavaScript
+        Thread.sleep(1000); 
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", dateField);
         dateField.sendKeys(Keys.CONTROL + "a", Keys.BACK_SPACE);
         dateField.sendKeys("04/15/2025");
         dateField.sendKeys(Keys.ENTER);
-
 
         // Email and About
         textboxes.get(3).sendKeys("demoqa@gmail.com");
@@ -76,7 +71,6 @@ public class FirstWebForm {
         WebElement submitButton = driver.findElement(By.id("edit-submit"));
         submitButton.click();
 
-        // Assert the confirmation message
         WebElement confirmation = new WebDriverWait(driver, Duration.ofSeconds(20))
                 .until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h1")));
 
