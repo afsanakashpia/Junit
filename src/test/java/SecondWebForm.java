@@ -40,8 +40,8 @@ public class SecondWebForm {
         textInputs.get(4).sendKeys("0192398748");
 
         //Email,Password,Gender,Nationality
-        //Rename email before running
-        driver.findElement(By.id("user_email")).sendKeys("Afsana1101@gmail.com");
+        String email = "afsana" + System.currentTimeMillis() + "@gmail.com";
+        driver.findElement(By.id("user_email")).sendKeys(email);
         driver.findElement(By.id("user_pass")).sendKeys("Afs!@#ana@11234");
         driver.findElement(By.id("radio_1665627729_Female")).click();
         driver.findElement(By.id("input_box_1665629217")).sendKeys("Bangladeshi");
