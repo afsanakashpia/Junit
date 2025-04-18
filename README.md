@@ -64,7 +64,6 @@ https://github.com/user-attachments/assets/7a12dee0-421f-47a3-9863-d22bd9e9a0f0
 
    ### Test Case 2:  Guest registration Form
    ```https://demo.wpeverest.com/user-registration/guest-registration-form/ ```
-- Rename the email in code everytime before starting the automation for successful submission
 
 https://github.com/user-attachments/assets/1601de99-2e3e-40f3-92a3-7fc9f5339999
 
