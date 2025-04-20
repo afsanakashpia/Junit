@@ -74,12 +74,12 @@ https://github.com/user-attachments/assets/1601de99-2e3e-40f3-92a3-7fc9f5339999
    ### Test Case 3: Web scraping of stock data from DSEBD
    ```https://dsebd.org/latest_share_price_scroll_by_value.php ```
 
-   
-
-https://github.com/user-attachments/assets/8a542dee-f514-4f41-9ccb-172c3d4b0348
 
 
-![17 04 2025_21 06 43_REC](https://github.com/user-attachments/assets/1b0263b6-cc3c-4f04-8767-578568a494e0)
+
+https://github.com/user-attachments/assets/3b830770-22a7-41e5-9e49-be4ea35052af
+
+
 
  #### Attaching the text file where the cell values are stored row wise
 
