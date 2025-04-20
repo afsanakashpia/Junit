@@ -26,13 +26,12 @@ public class SscrapTableData {
         driver.get("https://dsebd.org/latest_share_price_scroll_by_value.php");
         WebElement Table = driver.findElement(By.className("floatThead-wrapper"));
         List<WebElement> Rows = Table.findElements(By.cssSelector("tr"));
-        int i = 0;
         for (WebElement row : Rows) {
             List<WebElement> Cells = row.findElements(By.cssSelector("td"));
             for (WebElement cell : Cells) {
-                i++;
-                System.out.print("num [" + i + "] = " + cell.getText()+" | ");
+                System.out.print(cell.getText()+"  ");
             }
+            System.out.println();
             System.out.println();
         }
     }
